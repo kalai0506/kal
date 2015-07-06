@@ -55,7 +55,7 @@ public class HomePage {
 		 */
 		public String getEventID(){
 			String eventID=null;
-			webWait=new WebDriverWait(driver,15);
+			webWait=new WebDriverWait(driver,30);
 			webWait.until(ExpectedConditions.visibilityOfElementLocated(eventInHomePageLocator));
 			WebElement eventInHomePage=driver.findElement(eventInHomePageLocator);
 			eventID=eventInHomePage.getText();
