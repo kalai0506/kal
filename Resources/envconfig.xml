@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envconfig>
+	<browser>chrome</browser>
+	<chromedriver>misc//chromedriver</chromedriver>
+	<appURL>http://www.ticketfly.com</appURL>
+	<testdatapath>testdata//</testdatapath>
+	<firefoxbrowserpath>/Applications//firefox</firefoxbrowserpath>
+</envconfig>

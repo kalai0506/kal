@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="10842" started-at="2015-07-06T11:20:28Z" finished-at="2015-07-06T11:20:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10842" started-at="2015-07-06T11:20:28Z" finished-at="2015-07-06T11:20:39Z">
+      <class name="com.ticketfly.ticketfly.testscripts.TicketFlyTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.ticketfly.ticketfly.testscripts.TicketFlyTest@5056dfcb]" name="invokeBrowser" is-config="true" duration-ms="12259" started-at="2015-07-06T07:20:16Z" finished-at="2015-07-06T07:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="searchAndCartATicket()[pri:0, instance:com.ticketfly.ticketfly.testscripts.TicketFlyTest@5056dfcb]" name="searchAndCartATicket" duration-ms="10824" started-at="2015-07-06T07:20:28Z" finished-at="2015-07-06T07:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndCartATicket -->
+        <test-method status="PASS" signature="cleanUpWebDriver()[pri:0, instance:com.ticketfly.ticketfly.testscripts.TicketFlyTest@5056dfcb]" name="cleanUpWebDriver" is-config="true" duration-ms="896" started-at="2015-07-06T07:20:39Z" finished-at="2015-07-06T07:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpWebDriver -->
+      </class> <!-- com.ticketfly.ticketfly.testscripts.TicketFlyTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
